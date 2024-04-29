@@ -14,6 +14,9 @@ function generateCards(data) {
 
     mainContainer.innerHTML = '';
 
+    // image index => number of projects
+    let imageIndex = 0;
+
     // Loop through each project in the JSON data
     data.forEach(project => {
         // Create a card element
@@ -21,16 +24,24 @@ function generateCards(data) {
         card.classList.add('card');
         card.setAttribute('role', 'article');
 
+        // Create an array to store the badge images
+        const badgeImages = [];
+
+        // Loop through each tag in the project
+        project.tags.forEach(tag => {
+            // Create an image element for each tag and push it to the badgeImages array
+            const img = document.createElement('img');
+            img.src = `./assets/badges/${tag.toLowerCase()}.svg`; // Assuming tag names match badge image filenames
+            img.alt = tag;
+            badgeImages.push(img);
+        });
+
         // Create card content
         // Set card content
         card.innerHTML = `
-    <img src="./${project.link}/Screen%20Shot.png" alt=""> 
+    <img src="./assets/screenshots/Screen%20Shot%20(${imageIndex})_resized.png" alt="">
     <div class="card-tag">
-        <img src="assets/badges/html5.svg" alt="">
-        <img src="assets/badges/css3.svg" alt="">
-        <img src="assets/badges/javascript.svg" alt="">
-        <img src="assets/badges/tailwindcss.svg" alt="">
-        <img src="assets/badges/404.svg" alt="">
+        ${badgeImages.map(image => image.outerHTML).join('')}
     </div>
     <div class="card-text">
         <h2>${project.name}</h2>
@@ -39,7 +50,7 @@ function generateCards(data) {
         </p>
     </div>
     <div class="card-btn">
-        <a role="button" class="github" target="_blank" href="https://github.com/RanitManik/FrontendMentor-Solutions/${project.link}">
+        <a role="button" class="github" target="_blank" href="https://github.com/RanitManik/FrontendMentor-Solutions/tree/main/${project.link}">
             <p>GitHub</p>
             <img src="./assets/icons/link.svg" alt="">
         </a>
@@ -49,6 +60,7 @@ function generateCards(data) {
         </a>
     </div>
 `;
+        imageIndex += 1;
 
         // Append card to the main container
         mainContainer.appendChild(card);
