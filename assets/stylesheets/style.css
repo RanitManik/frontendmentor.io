@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Figtree', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 100vh;
+    background-color: #181818;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: none;
+    margin: auto;
+    max-width: 90rem;
+    align-content: start;
+    position: relative;
+}
+
+.loader {
+    background: black;
+    /*height: 110vh;*/
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    color: white;
+}
+
+.loader-animation {
+    height: 0.25rem;
+    width: 15rem;
+    /*noinspection CssInvalidFunction*/
+    --c: no-repeat linear-gradient(#6100ee 0 0);
+    background: var(--c), var(--c), #d7b8fc;
+    background-size: 60% 100%;
+    animation: l16 3s infinite;
+    margin-bottom: 2rem;
+}
+
+@keyframes l16 {
+    0% {
+        background-position: -150% 0, -150% 0
+    }
+    66% {
+        background-position: 250% 0, -150% 0
+    }
+    100% {
+        background-position: 250% 0, 250% 0
+    }
+}
+
+.cursor-dot {
+    width: 0.3125rem;
+    height: 0.3125rem;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.cursor-outline {
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 2px solid hsl(47, 27%, 61%);
+    /*background-color: hsla(47, 27%, 61%, 0.1);*/
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999999999999;
+    pointer-events: none;
+}
+
+.container {
+    margin-block: 3rem;
+}
+
+header {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    user-select: all;
+    color: hsl(47, 88%, 63%);
+
+}
+
+.card-author {
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-author img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.card-author-name {
+    margin-left: 1rem;
+    color: white;
+}
+
+/* --------------------------- main css --------------------------- */
+
+
+/* div and img styles */
+.card {
+    padding: 1.25rem;
+    background-color: #1E1E1F;
+    max-width: 21.875rem;
+    border-radius: .375rem;
+    transition: all 0.25s ease;
+    box-sizing: border-box;
+    border: 1px solid hsla(220, 13%, 91%, 0.1);
+    color: white;
+    display: grid;
+}
+
+a {
+    appearance: none;
+    text-decoration: none;
+    color: white;
+}
+
+.card > img {
+    width: 100%;
+    object-fit: contain;
+    background: white;
+    border-radius: 0.3rem;
+    height: 10rem;
+    object-position: top;
+}
+
+.card > img:nth-child(1), .card > img:nth-child(2) {
+    object-position: center;
+}
+
+.card-tag {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-block: 0.5rem;
+    max-width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Microsoft Edge */
+}
+
+.card-tag::-webkit-scrollbar {
+    display: none;
+}
+
+.card-tag img {
+    height: 1.25rem;
+}
+
+
+/* text styles :: heading */
+.card h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+}
+
+/* text styles :: paragraphs */
+
+.card-description {
+    margin-block: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(137, 137, 137);
+    -webkit-line-clamp: 3;
+}
+
+.card-btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+
+.card-btn > a {
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(229, 231, 235, 0.05);
+    border-radius: .375rem;
+}
+
+.card-btn > a:hover {
+    border-color: rgba(255, 85, 187, 0.3);
+}
+
+.card-btn > a > img {
+    height: 1rem;
+    width: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 2rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 81.25rem) {
+    main {
+        margin-inline: 5rem;
+    }
+}
+
+@media screen and (max-width: 81.25rem) and (min-width: 56.25rem) {
+    main {
+        margin-inline: 3rem;
+    }
+}
+
+@media screen and (max-width: 56.25rem) {
+    main {
+        margin-inline: 2rem;
+    }
+}
