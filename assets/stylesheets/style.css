@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    cursor: none;
 }
 
 body {
@@ -59,14 +61,14 @@ body {
 }
 
 .cursor-dot {
-    width: 0.3125rem;
-    height: 0.3125rem;
+    width: 5px;
+    height: 5px;
     background-color: hsl(47, 88%, 63%);
 }
 
 .cursor-outline {
-    width: 1.875rem;
-    height: 1.875rem;
+    width: 30px;
+    height: 30px;
     border: 2px solid hsl(47, 27%, 61%);
     /*background-color: hsla(47, 27%, 61%, 0.1);*/
 }
@@ -210,6 +212,10 @@ a {
 
 .card-btn > a:hover {
     border-color: rgba(255, 85, 187, 0.3);
+}
+
+.card-btn > a:focus, .card-btn > a:focus-visible {
+    border-color: rgba(255, 85, 187, 0.7);
 }
 
 .card-btn > a > img {

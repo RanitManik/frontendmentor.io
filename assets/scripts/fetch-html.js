@@ -1,3 +1,5 @@
+const loader = document.querySelector(".loader");
+
 // Fetch JSON data from file
 fetch('./assets/json/challenges.json')
     .then(response => response.json())
@@ -50,11 +52,11 @@ function generateCards(data) {
         </p>
     </div>
     <div class="card-btn">
-        <a role="button" class="github" target="_blank" href="https://github.com/RanitManik/FrontendMentor-Solutions/tree/main/${project.link}">
+        <a data-cursor role="button" class="github" target="_blank" href="https://github.com/RanitManik/FrontendMentor-Solutions/tree/main/${project.link}">
             <p>GitHub</p>
             <img src="./assets/icons/link.svg" alt="">
         </a>
-        <a role="button" target="_blank" href="${project.link}/index.html" class="demo">
+        <a data-cursor role="button" target="_blank" href="${project.link}/index.html" class="demo">
             <p>Demo</p>
             <img src="./assets/icons/link.svg" alt="">
         </a>
@@ -66,3 +68,8 @@ function generateCards(data) {
         mainContainer.appendChild(card);
     });
 }
+
+
+window.addEventListener("load", (e) => {
+    loader.style.display = "none";
+})
