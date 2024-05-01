@@ -41,7 +41,7 @@ function generateCards(data) {
         // Create card content
         // Set card content
         card.innerHTML = `
-    <img src="./assets/screenshots/Screen%20Shot%20(${imageIndex})_resized.png" alt="">
+    <img src="./assets/screenshots/desktop-design%20(${imageIndex}).jpg" alt="">
     <div class="card-tag">
         ${badgeImages.map(image => image.outerHTML).join('')}
     </div>
