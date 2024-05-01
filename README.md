@@ -109,6 +109,16 @@
                 <td><a href="20.%20fylo-landing-page-with-two-column-layout">Fylo landing page with two column layout</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/20.%20fylo-landing-page-with-two-column-layout/index.html" target="_blank">Live Demo</a></td>
             </tr>
+            <tr>
+                <td>21</td>
+                <td><a href="21.%20huddle-landing-page-with-curved-sections">Huddle landing page with curved sections</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/21.%20huddle-landing-page-with-curved-sections/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td><a href="22.%20clipboard-landing-page">Clipboard-landing-page</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/22.%20clipboard-landing-page/index.html" target="_blank">Live Demo</a></td>
+            </tr>
         </tbody>
     </table>
 </div>

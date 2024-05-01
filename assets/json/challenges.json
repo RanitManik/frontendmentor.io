@@ -179,6 +179,24 @@
         "html5",
         "tailwindcss"
       ]
+    },
+    {
+      "no": "21",
+      "name": "huddle landing page",
+      "link": "21.%20huddle-landing-page-with-curved-sections",
+      "tags": [
+        "html5",
+        "tailwindcss"
+      ]
+    },
+    {
+      "no": "22",
+      "name": "clipboard landing page",
+      "link": "22.%20clipboard-landing-page",
+      "tags": [
+        "html5",
+        "tailwindcss"
+      ]
     }
   ]
 }
