@@ -1,27 +1,26 @@
 /** @type {import("tailwindcss").Config} */
 module.exports = {
-    content: ["*.{html,js}"],
-    theme: {
-        extend: {
-            colors: {
-                pink: "hsl(322, 100%, 66%)",
-                "light-pink": "hsl(321, 100%, 78%)",
-                "light-red": "hsl(0, 100%, 63%)",
-                "very-dark-cyan": "hsl(192, 100%, 9%)",
-                "very-pale-blue": "hsl(207, 100%, 98%)",
-            },
-            // Fonts
-            fontFamily: {
-                Poppins: ["Poppins", "sans-serif"],
-                openSans: ['"Open Sans"', "sans-serif"],
-
-            },
-            screens: {
-                mobile: {max: "768px"},
-                tablet: {max: "1024px"},
-                laptop: {min: "1025px"},
-            },
-        },
-    },
-    plugins: [],
+  content: ["*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        "primary-strong-cyan": "hsl(171, 66%, 44%)",
+        "primary-light-blue": "hsl(233, 100%, 69%)",
+        "neutral-dark-grayish-blue": "hsl(210, 10%, 33%)",
+        "neutral-grayish-blue": "hsl(201, 11%, 66%)"
+      },
+      fontSize: {
+        body: "18px"
+      },
+      fontFamily: {
+        body: ["\"Bai Jamjuree\"", "sans-serif"]
+      },
+      fontWeight: {
+        normal: 400,
+        semibold: 600
+      }
+    }
+  },
+  variants: {},
+  plugins: []
 };

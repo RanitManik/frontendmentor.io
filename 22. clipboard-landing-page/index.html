@@ -9,270 +9,299 @@
       sizes="32x32"
       href="images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <title>Frontend Mentor | Clipboard landing page</title>
     <link rel="stylesheet" href="src/output.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body
-    class="font-400 m-auto mt-10 min-h-screen max-w-[1920px] font-openSans text-very-dark-cyan"
-  >
-    <main>
-      <section class="text-center">
-        <header
-          class="m-body mb-16 flex items-center justify-between sm:mb-20 md:mb-20 lg:mb-[20%]"
+  <body class="font-body">
+    <!--MAIN-->
+    <main
+      class="grid place-items-center bg-[url('../images/bg-header-mobile.png')] bg-contain bg-top bg-no-repeat gap-8 md:gap-10 lg:bg-[url('../images/bg-header-desktop.png')]"
+    >
+      <!--FIRST SECTION-->
+      <section
+        class="m-8 grid min-h-[min(100vh,_1080px)] max-w-3xl place-items-center content-center gap-6 text-body lg:m-auto"
+      >
+        <img class="mb-8" src="./images/logo.svg" alt="" />
+        <h1
+          class="text-center text-3xl font-semibold text-neutral-dark-grayish-blue sm:text-4xl md:text-5xl"
         >
-          <img class="mobile:w-2/5" src="./images/logo.svg" alt="" />
+          A history of everything you copy
+        </h1>
+        <p class="mb-8 text-center text-xl text-neutral-grayish-blue">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
           <button
-            class="font-600 rounded-full border border-pink bg-white px-6 py-2 text-pink shadow-md shadow-pink/20 hover:border-pink/40 hover:text-pink/40 hover:shadow-lg hover:shadow-pink/30 md:px-10 lg:px-12 lg:py-3"
+            class="w-full rounded-full border-b-4 border-primary-strong-cyan bg-primary-strong-cyan/70 px-8 py-4 font-bold text-white shadow-md shadow-primary-strong-cyan/40 transition-all hover:shadow-lg hover:shadow-primary-strong-cyan/40 sm:w-auto"
           >
-            Try It Free
+            Download for iOS
           </button>
-        </header>
-
-        <div
-          class="m-body grid place-items-center gap-10 md:gap-16 lg:m-auto lg:max-w-[80%] lg:gap-20"
-        >
-          <div class="text-center md:mr-10 laptop:mr-12">
-            <h1
-              class="mb-10 font-Poppins font-bold text-very-dark-cyan mobile:text-3xl tablet:text-4xl laptop:text-5xl"
-            >
-              Build The Community Your Fans Will Love
-            </h1>
-            <p class="m-auto mb-10 text-xl lg:max-w-[60%]">
-              Huddle re-imagines the way we build communities. You have a voice,
-              but so does your audience. Create connections with your users as
-              you engage in genuine discussion.
-            </p>
-            <button
-              class="font-600 rounded-full bg-pink py-3 font-bold text-white shadow-md shadow-pink/40 hover:bg-pink/50 hover:shadow-lg hover:shadow-pink/40 mobile:mb-6 mobile:px-10 tablet:px-14 laptop:px-16 laptop:py-4"
-            >
-              Get Started For Free
-            </button>
-          </div>
-          <img src="images/screen-mockups.svg" alt="" />
+          <button
+            class="w-full rounded-full border-b-4 border-primary-light-blue bg-primary-light-blue/70 px-8 py-4 font-bold text-white shadow-md shadow-primary-light-blue/40 transition-all hover:shadow-lg hover:shadow-primary-light-blue/40 sm:w-auto"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </section>
+      <!--SECOND SECTION-->
+      <section
+        class="md:mb-18 mb-10 grid place-items-center content-center gap-6 text-body sm:mb-14 sm:gap-8 md:gap-10 lg:mb-24 lg:gap-14"
+      >
+        <div class="m-8 grid max-w-3xl gap-6 md:m-auto">
+          <h2
+            class="text-center text-2xl font-semibold text-neutral-dark-grayish-blue sm:text-3xl md:text-4xl"
+          >
+            Keep track of your snippets
+          </h2>
+          <p class="mb-8 text-center text-xl text-neutral-grayish-blue">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
         </div>
         <div
-          class="md:my-18 my-10 flex flex-col items-center justify-evenly sm:my-14 sm:flex-row lg:my-24 mobile:gap-16"
+          class="md:gap-18 m-8 grid justify-items-center gap-14 sm:gap-16 md:m-0 md:grid-cols-2 md:justify-items-start lg:gap-24"
         >
-          <div>
-            <img src="./images/icon-communities.svg" alt="" />
-            <p class="text-left md:text-center">
-              <span
-                class="block text-[3rem] font-bold sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem]"
-                >1.4k+</span
-              >Communities Formed
+          <img class="md:-ml-8" src="./images/image-computer.png" alt="" />
+          <div
+            class="grid max-w-96 content-center items-center gap-8 text-center md:gap-10 md:text-start lg:gap-12"
+          >
+            <div>
+              <h3
+                class="mb-4 text-xl font-semibold text-neutral-dark-grayish-blue sm:text-2xl"
+              >
+                Quick Search
+              </h3>
+              <p class="text-neutral-grayish-blue">
+                Easily search your snippets by content, category, web address,
+                application, and more.
+              </p>
+            </div>
+            <div>
+              <h3
+                class="mb-4 text-xl font-semibold text-neutral-dark-grayish-blue sm:text-2xl"
+              >
+                iCloud Sync
+              </h3>
+              <p class="text-neutral-grayish-blue">
+                Instantly saves and syncs snippets across all your devices.
+              </p>
+            </div>
+            <div>
+              <h3
+                class="mb-4 text-xl font-semibold text-neutral-dark-grayish-blue sm:text-2xl"
+              >
+                Complete History
+              </h3>
+              <p class="text-neutral-grayish-blue">
+                Retrieve any snippets from the first moment you started using
+                the app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--THIRD SECTION-->
+      <section
+        class="m-8 grid max-w-4xl place-items-center content-center gap-8 text-body sm:gap-10 md:gap-12 lg:m-auto lg:gap-14"
+      >
+        <div class="m-8 grid max-w-[100%] gap-6 md:m-auto md:max-w-[80%]">
+          <h2
+            class="text-center text-2xl font-semibold text-neutral-dark-grayish-blue sm:text-3xl md:text-4xl"
+          >
+            Access Clipboard Anywhere
+          </h2>
+          <p class="text-center text-xl text-neutral-grayish-blue">
+            Whether you’re on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </p>
+        </div>
+        <img src="./images/image-devices.png" alt="" />
+      </section>
+      <!--FOURTH SECTION-->
+      <section
+        class="m-8 grid max-w-5xl place-items-center content-center gap-10 text-body sm:gap-12 md:gap-14 lg:m-auto lg:gap-16"
+      >
+        <div class="m-8 grid gap-6 md:m-auto">
+          <h2
+            class="text-center text-2xl font-semibold text-neutral-dark-grayish-blue sm:text-3xl md:text-4xl"
+          >
+            Supercharge your workflow
+          </h2>
+          <p class="text-center text-xl text-neutral-grayish-blue">
+            We’ve got the tools to boost your productivity.
+          </p>
+        </div>
+        <div class="grid gap-10 text-center sm:grid-cols-2 md:grid-cols-3">
+          <div class="grid content-start justify-items-center gap-8">
+            <img class="h-8" src="./images/icon-blacklist.svg" alt="" />
+            <h3
+              class="text-[1.15rem] font-semibold text-neutral-dark-grayish-blue sm:text-xl md:text-2xl"
+            >
+              Create blacklists
+            </h3>
+            <p class="text-sm text-neutral-grayish-blue">
+              Ensure sensitive information never makes its way to your clipboard
+              by excluding certain sources.
             </p>
           </div>
-          <div>
-            <img src="./images/icon-messages.svg" alt="" />
-            <p class="text-left md:text-center">
-              <span
-                class="block text-[3rem] font-bold sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem]"
-                >2.7m+</span
-              >Messages Sent
+          <div class="grid content-start justify-items-center gap-8">
+            <img class="h-8" src="./images/icon-text.svg" alt="" />
+            <h3
+              class="text-[1.15rem] font-semibold text-neutral-dark-grayish-blue sm:text-xl md:text-2xl"
+            >
+              Plain text snippets
+            </h3>
+            <p class="text-sm text-neutral-grayish-blue">
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div
+            class="grid content-start items-start justify-items-center gap-8"
+          >
+            <img class="h-8" src="./images/icon-preview.svg" alt="" />
+            <h3
+              class="text-[1.15rem] font-semibold text-neutral-dark-grayish-blue sm:text-xl md:text-2xl"
+            >
+              Sneak preview
+            </h3>
+            <p class="text-sm text-neutral-grayish-blue">
+              Quick preview of all snippets on your Clipboard for easy access.
             </p>
           </div>
         </div>
       </section>
-      <section class="bg-white mobile:text-center">
-        <div>
-          <picture>
-            <source
-              srcset="./images/bg-section-top-desktop-1.svg"
-              media="(min-width: 768px)"
-            />
-            <img
-              class="w-full"
-              src="./images/bg-section-top-mobile-1.svg"
-              alt=""
-            />
-          </picture>
-          <div
-            class="grid-cols-custom grid items-center gap-10 bg-very-pale-blue p-10 md:p-12"
+      <!--FIFTH SECTION-->
+      <section
+        class="md:my-18 m-8 my-16 flex max-w-5xl flex-wrap content-center items-center justify-center justify-items-center gap-14 px-8 text-body md:my-20 lg:m-auto lg:my-20"
+      >
+        <h2 class="sr-only">Trusted By Many Companies</h2>
+        <img src="./images/logo-google.png" alt="Google" />
+        <img src="./images/logo-ibm.png" alt="IBM" />
+        <img src="./images/logo-microsoft.png" alt="Microsoft" />
+        <img src="./images/logo-hp.png" alt="HP" />
+        <img src="./images/logo-vector-graphics.png" alt="VECTOR GRAPHICS" />
+      </section>
+      <!--SIXTH SECTION-->
+      <section
+        class="m-8 grid max-w-3xl place-items-center content-center gap-6 py-12 text-body sm:py-16 md:py-20 lg:m-auto"
+      >
+        <h2
+          class="text-center text-2xl font-semibold text-neutral-dark-grayish-blue sm:text-3xl md:text-4xl"
+        >
+          Clipboard for iOS and Mac OS
+        </h2>
+        <p class="mb-8 text-center text-xl text-neutral-grayish-blue">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you’re ready to start adding to your clipboard.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <button
+            class="w-full rounded-full border-b-4 border-primary-strong-cyan bg-primary-strong-cyan/70 px-8 py-4 font-bold text-white shadow-md shadow-primary-strong-cyan/40 transition-all hover:shadow-lg hover:shadow-primary-strong-cyan/40 sm:w-auto"
           >
-            <div class="md:p-[15%] mobile:order-2">
-              <h2
-                class="mb-4 font-Poppins font-bold text-very-dark-cyan md:mb-6 mobile:text-2xl tablet:text-3xl laptop:text-4xl"
-              >
-                Grow Together
-              </h2>
-              <p class="text-grayish-blue text-[1rem] md:text-xl">
-                Generate meaningful discussions with your audience and build a
-                strong, loyal community. Think of the insightful conversations
-                you miss out on with a feedback form.
-              </p>
-            </div>
-            <img src="images/illustration-grow-together.svg" alt="" />
-          </div>
-
-          <picture>
-            <source
-              srcset="./images/bg-section-bottom-desktop-1.svg"
-              media="(min-width: 768px)"
-            />
-            <img
-              class="w-full"
-              src="./images/bg-section-bottom-mobile-1.svg"
-              alt=""
-            />
-          </picture>
-
-          <div
-            class="grid-cols-custom-v2 my-10 grid items-center gap-10 p-10 md:my-16 md:p-12"
+            Download for iOS
+          </button>
+          <button
+            class="w-full rounded-full border-b-4 border-primary-light-blue bg-primary-light-blue/70 px-8 py-4 font-bold text-white shadow-md shadow-primary-light-blue/40 transition-all hover:shadow-lg hover:shadow-primary-light-blue/40 sm:w-auto"
           >
-            <div class="order-2 md:p-[15%]">
-              <h2
-                class="mb-4 font-Poppins font-bold text-very-dark-cyan md:mb-6 mobile:text-2xl tablet:text-3xl laptop:text-4xl"
-              >
-                Flowing Conversations
-              </h2>
-              <p class="text-grayish-blue text-[1rem] md:text-xl">
-                You wouldn't paginate a conversation in real life, so why do it
-                online? Our threads have just-in-time loading for a more natural
-                flow.
-              </p>
-            </div>
-            <img src="images/illustration-flowing-conversation.svg" alt="" />
-          </div>
-          <picture>
-            <source
-              srcset="./images/bg-section-top-desktop-2.svg"
-              media="(min-width: 768px)"
-            />
-            <img
-              class="w-full"
-              src="./images/bg-section-top-mobile-2.svg"
-              alt=""
-            />
-          </picture>
-          <div
-            class="grid-cols-custom grid items-center gap-10 bg-very-pale-blue p-10 md:p-12"
-          >
-            <div class="md:p-[15%] mobile:order-2">
-              <h2
-                class="mid:mb-6 mb-4 font-Poppins font-bold text-very-dark-cyan mobile:text-2xl tablet:text-3xl laptop:text-4xl"
-              >
-                Your Users
-              </h2>
-              <p class="text-grayish-blue text-[1rem] md:text-xl">
-                It takes no time at all to integrate Huddle with your app's
-                authentication solution. This means, once signed in to your app,
-                your users can start chatting immediately.
-              </p>
-            </div>
-            <img src="images/illustration-your-users.svg" alt="" />
-          </div>
-          <picture>
-            <source
-              srcset="./images/bg-section-bottom-desktop-1.svg"
-              media="(min-width: 768px)"
-            />
-            <img
-              class="w-full"
-              src="./images/bg-section-bottom-mobile-1.svg"
-              alt=""
-            />
-          </picture>
-          <div
-            class="box-shadow-lg mt-10 rounded-2xl bg-white text-center sm:mt-14 md:mt-16 md:px-20 md:py-16 lg:mt-20 mobile:p-6"
-          >
-            <h3
-              class="mid:mb-6 mb-4 font-Poppins font-bold md:mb-10 mobile:text-xl tablet:text-2xl laptop:text-3xl"
-            >
-              Ready To Build Your Community?
-            </h3>
-            <button
-              class="font-600 rounded-full bg-pink py-3 font-bold text-white shadow-md shadow-pink/40 hover:bg-pink/50 hover:shadow-lg hover:shadow-pink/40 mobile:mb-6 mobile:px-10 tablet:px-14 laptop:px-16 laptop:py-4"
-            >
-              Get Started For Free
-            </button>
-          </div>
+            Download for Mac
+          </button>
         </div>
       </section>
     </main>
-    <footer class="mt-20">
-      <div>
-        <picture>
-          <source
-            srcset="./images/bg-footer-top-desktop.svg"
-            media="(min-width: 768px)"
-          />
-          <img class="w-full" src="./images/bg-footer-top-mobile.svg" alt="" />
-        </picture>
-      </div>
-      <div
-        class="bg-very-dark-cyan px-6 py-12 text-white sm:px-8 sm:py-16 md:px-10 md:py-20 lg:px-12 lg:py-24"
+    <!--FOOTER-->
+    <footer
+      class="flex flex-col items-center justify-between gap-14 bg-neutral-grayish-blue/10 px-[10%] py-10 text-body md:flex-row lg:m-auto"
+    >
+      <img class="h-16 w-16" src="./images/logo.svg" alt="" />
+      <ul
+        class="grid gap-x-16 gap-y-4 text-center md:grid-flow-col md:grid-rows-2 md:text-left"
       >
-        <div class="grid items-start justify-between gap-14 lg:grid-flow-col">
-          <div class="order-3 lg:-order-1">
-            <div class="grid gap-6">
-              <img class="" src="images/logo-white.svg" alt="" />
-              <p class="mb-6 text-sm font-[600] lg:max-w-72">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-              </p>
-              <a class="flex items-center gap-4" href="#">
-                <img src="images/icon-phone.svg" alt="phone" />+1-543-123-4567
-              </a>
-              <a class="flex items-center gap-4" href="#">
-                <img src="images/icon-email.svg" alt="email" />
-                example@huddle.com
-              </a>
-            </div>
-            <div class="mt-16 flex gap-4">
-              <a class="rounded-full border p-2" href="#"
-                ><img
-                  class="w-5"
-                  src="./images/facebook.svg"
-                  alt="facebook link"
-                />
-              </a>
-              <a class="rounded-full border p-2" href="#"
-                ><img
-                  class="w-5"
-                  src="./images/twitter.svg"
-                  alt="twitter link"
-                />
-              </a>
-              <a class="rounded-full border p-2" href="#"
-                ><img
-                  class="w-5"
-                  src="./images/instagram.svg"
-                  alt="instagram link"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="grid max-w-md gap-6">
-            <h3 class="text-2xl font-bold uppercase">Newsletter</h3>
-            <p class="text-sm font-[600] lg:max-w-[70%]">
-              To receive tips on how to grow your community, sign up to our
-              weekly newsletter. We’ll never send you spam or pass on your email
-              address
-            </p>
-            <div class="flex flex-wrap gap-4 lg:mt-10">
-              <label class="sr-only" for="email">Enter your Email</label>
-              <input
-                class="rounded-md px-6 py-3 mobile:w-full"
-                id="email"
-                name="email"
-                type="email"
-              />
-              <button
-                class="font-600 rounded-md bg-pink px-6 py-3 font-bold text-white hover:bg-pink/80 active:bg-pink/90"
-              >
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
+        <li>
+          <a
+            class="text-neutral-grayish-blue hover:text-primary-strong-cyan"
+            href=""
+            >FAQs</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-neutral-grayish-blue hover:text-primary-strong-cyan"
+            href=""
+            >Contact Us</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-neutral-grayish-blue hover:text-primary-strong-cyan"
+            href=""
+            >Privacy Policy</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-neutral-grayish-blue hover:text-primary-strong-cyan"
+            href=""
+            >Press Kit</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-neutral-grayish-blue hover:text-primary-strong-cyan"
+            href=""
+            >Install Guide</a
+          >
+        </li>
+      </ul>
+      <div class="flex items-center gap-6">
+        <a href="">
+          <p class="sr-only">Facebook Page Link</p>
+          <svg
+            class="fill-[#4C545C] hover:fill-primary-strong-cyan"
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+              fill-rule="nonzero"
+            />
+          </svg>
+        </a>
+        <a href="">
+          <p class="sr-only">Twitter Page Link</p>
+          <svg
+            class="fill-[#4C545C] hover:fill-primary-strong-cyan"
+            width="24"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z"
+              fill-rule="nonzero"
+            />
+          </svg>
+        </a>
+        <a href="">
+          <p class="sr-only">Instagram Page Link</p>
+          <svg
+            class="fill-[#4C545C] hover:fill-primary-strong-cyan"
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+              fill-rule="nonzero"
+            />
+          </svg>
+        </a>
       </div>
     </footer>
   </body>
