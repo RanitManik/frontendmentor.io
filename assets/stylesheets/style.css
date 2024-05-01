@@ -145,12 +145,15 @@ a {
     background: white;
     border-radius: 0.3rem;
     height: 10rem;
-    object-position: top;
     margin-bottom: .5rem;
 }
 
-.object-center {
+.object-center > img {
     object-position: center;
+}
+
+.object-top > img {
+    object-position: top;
 }
 
 .card-tag {
