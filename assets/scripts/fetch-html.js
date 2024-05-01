@@ -17,7 +17,7 @@ function generateCards(data) {
     mainContainer.innerHTML = '';
 
     // image index => number of projects
-    let imageIndex = 0;
+    let projectIndex = 0;
 
     // Loop through each project in the JSON data
     data.forEach(project => {
@@ -41,7 +41,7 @@ function generateCards(data) {
         // Create card content
         // Set card content
         card.innerHTML = `
-    <img src="./assets/screenshots/desktop-design%20(${imageIndex}).jpg" alt="">
+    <img src="./assets/screenshots/desktop-design%20(${projectIndex}).jpg" alt="">
     <div class="card-tag">
         ${badgeImages.map(image => image.outerHTML).join('')}
     </div>
@@ -62,7 +62,10 @@ function generateCards(data) {
         </a>
     </div>
 `;
-        imageIndex += 1;
+        if (projectIndex === 0 || projectIndex === 1) {
+            card.classList.add('object-center');
+        }
+        projectIndex += 1;
 
         // Append card to the main container
         mainContainer.appendChild(card);
