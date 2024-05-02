@@ -11,12 +11,18 @@
     --background-color-secondary-dark: #161b22;
     --border-color-primary-dark: #30363d;
     --primary-text-color-dark: #ffffff;
+    --scrollbar-track-secondary-dark: #1b2029;
+    --scrollbar-thumb-dark: #ffffff;
+    --scrollbar-thumb-hover-dark: #505966;
 
     /* Define color variables for light theme */
     --background-color-primary-light: #ffffff;
     --background-color-secondary-light: #f6f8fa;
     --border-color-primary-light: #d0d7de;
     --primary-text-color-light: #1f2328;
+    --scrollbar-track-secondary-light: #d4d8d9;
+    --scrollbar-thumb-hover-light: #1f2328;
+    --scrollbar-thumb-light: #787b80;
 }
 
 /* Use dark theme color variables by default */
@@ -26,6 +32,9 @@
         --background-color-secondary: var(--background-color-secondary-dark);
         --border-color-primary: var(--border-color-primary-dark);
         --primary-text-color: var(--primary-text-color-dark);
+        --scrollbar-track-secondary: var(--scrollbar-track-secondary-dark);
+        --scrollbar-thumb-hover: var(--scrollbar-thumb-dark);
+        --scrollbar-thumb: var(--scrollbar-thumb-hover-dark);
     }
 }
 
@@ -36,7 +45,32 @@
         --background-color-secondary: var(--background-color-secondary-light);
         --border-color-primary: var(--border-color-primary-light);
         --primary-text-color: var(--primary-text-color-light);
+        --scrollbar-track-secondary: var(--scrollbar-track-secondary-light);
+        --scrollbar-thumb: var(--scrollbar-thumb-light);
+        --scrollbar-thumb-hover: var(--scrollbar-thumb-hover-light);
     }
+}
+
+/* Style the main scrollbar */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-secondary);
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 10px;
+    border: 2px solid var(--background-color-primary);
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover);
 }
 
 body {
