@@ -190,7 +190,7 @@
 
 <hr>
 
-## Frontend Mentor Solutions by Ranit Manik
+## Frontend Mentor Solutions by [Ranit Manik](https://www.frontendmentor.io/profile/RanitManik)
 
 Welcome to my Frontend Mentor Solutions page! I am Ranit Manik, a passionate developer specializing in HTML, CSS, JavaScript, React, and TypeScript with a growing proficiency in Backend Development. My journey in web development is driven by a commitment to continuous learning and an enthusiasm for creating clean, functional, and aesthetically pleasing user interfaces.
 
