@@ -11,17 +11,17 @@
         <tbody>
             <tr>
                 <td>01</td>
-                <td><a href="01.%20Blog-preview-card">Blog Preview card</a></td>
+                <td><a href="01. blog-preview-card">Blog Preview card</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/01.%20Blog-preview-card/index.html" target="_blank">Live Demo</a></td>
             </tr>
             <tr>
                 <td>02</td>
-                <td><a href="02.%20Results-summary-component">Results Summary component</a></td>
+                <td><a href="02. results-summary-component">Results Summary component</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/02.%20Results-summary-component/index.html" target="_blank">Live Demo</a></td>
             </tr>
             <tr>
                 <td>03</td>
-                <td><a href="03.%20Product-preview-card-component">Product preview card component</a></td>
+                <td><a href="03. product-preview-card-component">Product preview card component</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/03.%20Product-preview-card-component/index.html" target="_blank">Live Demo</a></td>
             </tr>
             <tr>
@@ -31,12 +31,12 @@
             </tr>
             <tr>
                 <td>05</td>
-                <td><a href="05.%20QR%20code%20component">QR code component</a></td>
+                <td><a href="05. qr code component">QR code component</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/05.%20QR%20code%20component/index.html" target="_blank">Live Demo</a></td>
             </tr>
             <tr>
                 <td>06</td>
-                <td><a href="06.%20Order-summary-component">Order summary component</a></td>
+                <td><a href="06. order-summary-component">Order summary component</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/06.%20Order-summary-component/index.html" target="_blank">Live Demo</a></td>
             </tr>
             <tr>

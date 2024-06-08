@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.invalid-email {
+  @apply border-tomato bg-tomato/10 text-tomato placeholder-tomato caret-tomato;
+}
+
+h1 {
+  @apply text-3xl font-bold sm:text-4xl lg:text-5xl;
+}
+
+button {
+  @apply w-full rounded-md bg-dark-slate px-4 py-3 font-bold text-white hover:bg-gradient;
+}
+
+#initialPage,
+#successPage {
+  @apply bg-white font-sans text-body text-dark-slate sm:rounded-3xl sm:p-4 lg:p-6 mobile:min-h-[100svh] mobile:min-w-full;
+}
+
+#successPage {
+  @apply max-w-md;
+}
