@@ -196,13 +196,13 @@ Welcome to my Frontend Mentor Solutions page! I am Ranit Manik, a passionate dev
 
 On this page, you'll find a showcase of my solutions to various Frontend Mentor challenges. Each project represents a step in my development journey, highlighting my skills in problem-solving, design implementation, and responsive development. I believe in writing code that is not only effective but also maintainable and scalable.
 
-> visit my [**Frontendmentor Profile Page**](https://www.frontendmentor.io/profile/RanitManik)
+> **Here is my [Frontendmentor Profile Page](https://www.frontendmentor.io/profile/RanitManik)**  
 
 ## How to Use
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/RanitManik/frontendmentor-challenges.git
+   git clone https://github.com/RanitManik/FrontendMentor-Solutions.git
    ```
 
 2. Navigate to the specific challenge directory.
