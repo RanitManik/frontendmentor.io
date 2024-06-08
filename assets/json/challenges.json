@@ -3,7 +3,7 @@
     {
       "no": "01",
       "name": "Blog Preview card",
-      "link": "01.%20Blog-preview-card",
+      "link": "01.%20blog-preview-card",
       "tags": [
         "html5",
         "css3"
@@ -13,7 +13,7 @@
     {
       "no": "02",
       "name": "Results Summary component",
-      "link": "02.%20Results-summary-component",
+      "link": "02.%20results-summary-component",
       "tags": [
         "html5",
         "css3"
@@ -23,7 +23,7 @@
     {
       "no": "03",
       "name": "Product preview card component",
-      "link": "03.%20Product-preview-card-component",
+      "link": "03.%20product-preview-card-component",
       "tags": [
         "html5",
         "css3"
@@ -43,7 +43,7 @@
     {
       "no": "05",
       "name": "QR code component",
-      "link": "05.%20QR%20code%20component",
+      "link": "05.%20qr%20code%20component",
       "tags": [
         "html5",
         "css3"
@@ -53,7 +53,7 @@
     {
       "no": "06",
       "name": "Order summary component",
-      "link": "06.%20Order-summary-component",
+      "link": "06.%20order-summary-component",
       "tags": [
         "html5",
         "scss"
