@@ -119,6 +119,72 @@
                 <td><a href="22.%20clipboard-landing-page">Clipboard-landing-page</a></td>
                 <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/22.%20clipboard-landing-page/index.html" target="_blank">Live Demo</a></td>
             </tr>
+            <tr>
+                <td>23</td>
+                <td><a href="23.%20advice-generator-app">Advice generator app</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/23.%20advice-generator-app/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td><a href="24.%20faq-accordion">FAQ accordion</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/24.%20faq-accordion/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td><a href="25.%20interactive-rating-component">Interactive rating component</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/25.%20interactive-rating-component/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td><a href="26.%20ping-coming-soon-page">Ping coming soon page</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/26.%20ping-coming-soon-page/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td><a href="27.%20article-preview-component">Article preview component</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/27.%20article-preview-component/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td><a href="28.%20base-apparel-coming-soon">Base apparel coming soon page</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/28.%20base-apparel-coming-soon/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td><a href="29.%20intro-component-with-signup-form">Intro component with sign up form</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/29.%20faq-accordion-card/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td><a href="30.%20tip-calculator-app">Tip calculator app</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/30.%20tip-calculator-app/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td><a href="31.%20newsletter-sign-up-with-success-message">Newsletter sign-up with success message</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/31.%20newsletter-sign-up-with-success-message/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td><a href="32.%20project-tracking-intro-component">Project tracking intro component</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/32.%20project-tracking-intro-component/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td><a href="33.%20age-calculator-app">Age calculator app</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/33.%20age-calculator-app/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td><a href="34.%20contact-form">Contact form</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/34.%20contact-form/index.html" target="_blank">Live Demo</a></td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td><a href="35.%20expenses-chart-component">Expenses chart component</a></td>
+                <td><a href="https://ranitmanik.github.io/FrontendMentor-Solutions/35.%20expenses-chart-component/index.html" target="_blank">Live Demo</a></td>
+            </tr>
         </tbody>
     </table>
+
 </div>
