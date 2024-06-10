@@ -53,19 +53,20 @@
 
 /* Style the main scrollbar */
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 1rem;
 }
 
 /* Track */
 body::-webkit-scrollbar-track {
     background: var(--scrollbar-track-secondary);
+    cursor: auto;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-thumb);
-    border-radius: 10px;
     border: 2px solid var(--background-color-primary);
+    cursor: auto;
 }
 
 /* Handle on hover */
@@ -139,7 +140,6 @@ body {
     width: 30px;
     height: 30px;
     border: 2px solid hsl(47, 27%, 61%);
-    background-color: hsla(47, 27%, 61%, 0.1);
     display: none;
 }
 
