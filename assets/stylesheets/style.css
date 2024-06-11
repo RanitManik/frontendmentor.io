@@ -156,6 +156,7 @@ body {
 
 .container {
     margin-block: 3rem;
+    width: 100%;
 }
 
 header {
@@ -209,19 +210,65 @@ h1 {
     display: grid;
 }
 
+.card.skeleton {
+    width: 100%;
+    align-items: start;
+    gap: 1rem;
+}
+
+.paragraph-skeleton {
+    height: 5vh;
+    background-color: var(--border-color-primary);
+    animation: pulse 2s infinite;
+    border-radius: 0.3rem;
+    margin-bottom: .5rem;
+    overflow: hidden;
+}
+
 a {
     appearance: none;
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
-.card > img {
+@keyframes pulse {
+    0% {
+        filter: brightness(80%);
+    }
+    50% {
+        filter: brightness(100%);
+    }
+    100% {
+        filter: brightness(80%);
+    }
+}
+
+.image-container {
     width: 100%;
-    object-fit: cover;
-    background: white;
-    border-radius: 0.3rem;
     height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.3rem;
     margin-bottom: .5rem;
+    overflow: hidden;
+    background-color: var(--border-color-primary);
+    animation: pulse 2s infinite;
+}
+
+.image-container > img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.image-container.loaded {
+    animation: none;
+}
+
+.image-container.loaded > img {
+    opacity: 1;
 }
 
 .object-center > img {
