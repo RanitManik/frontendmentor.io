@@ -1,14 +1,32 @@
-const loader = document.querySelector(".loader");
+document.addEventListener("DOMContentLoaded", (e) => {
+    const loader = document.querySelector(".loader");
+    loader.style.display = "none";
 
-// Fetch JSON data from file
-fetch("./assets/json/challenges.json")
-    .then(response => response.json())
-    .then(data => {
-        // Call function to generate cards with JSON data
-        console.log(data);
-        generateCards(data.name);
-    })
-    .catch(error => console.error("Error fetching JSON:", error));
+    fetch("./assets/json/challenges.json")
+        .then(response => response.json())
+        .then(data => {
+            generateCards(data.name);
+            const lazyImages = document.querySelectorAll('img.lazy');
+            lazyImages.forEach(lazyLoad);
+        })
+        .catch(error => console.error("Error fetching JSON:", error));
+
+    const lazyLoad = (target) => {
+        const io = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    const src = img.getAttribute('data-src');
+                    img.setAttribute('src', src);
+                    img.classList.remove('lazy');
+                    observer.disconnect();
+                }
+            });
+        });
+
+        io.observe(target);
+    };
+});
 
 // Function to dynamically generate cards from JSON data
 function generateCards(data) {
@@ -49,7 +67,7 @@ function generateCards(data) {
         img.style.objectPosition = project.position;
         img.classList.add("lazy");
         img.loading = "lazy";
-        img.src = `./assets/desktop-design__original/desktop-design (${projectIndex}).jpg`;
+        img.setAttribute("data-src", `./assets/desktop-design__original/desktop-design (${projectIndex}).jpg`);
         img.alt = "";
         img.addEventListener("load", () => {
             imageContainer.classList.add("loaded");
@@ -97,8 +115,3 @@ function generateCards(data) {
         mainContainer.appendChild(card);
     });
 }
-
-document.addEventListener("DOMContentLoaded", (e) => {
-    const loader = document.querySelector(".loader");
-    loader.style.display = "none";
-});
