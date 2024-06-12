@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const img = entry.target;
-                    const src = img.getAttribute('data-src');
+                    const src = img.getAttribute('data-solutions');
                     img.setAttribute('src', src);
                     img.classList.remove('lazy');
                     observer.disconnect();
@@ -67,7 +67,7 @@ function generateCards(data) {
         img.style.objectPosition = project.position;
         img.classList.add("lazy");
         img.loading = "lazy";
-        img.setAttribute("data-src", `./assets/desktop-design__original/desktop-design (${projectIndex}).jpg`);
+        img.setAttribute("data-solutions", `./assets/desktop-design__original/desktop-design (${projectIndex}).jpg`);
         img.alt = "";
         img.addEventListener("load", () => {
             imageContainer.classList.add("loaded");
@@ -88,14 +88,14 @@ function generateCards(data) {
                 </p>
             </div>
             <div class="card-btn">
-                <a data-cursor role="button" class="github" target="_blank" href="https://github.com/RanitManik/FrontendMentor-Solutions/tree/main/${project.link}">
+                <a data-cursor role="button" class="github" target="_blank" href="https://github.com/RanitManik/FrontendMentor-Solutions/tree/main/solutions/${project.link}">
                     <p>GitHub</p>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"/>
                     <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"/>
                     </svg>
                 </a>
-                <a data-cursor role="button" target="_blank" href="${project.link}/index.html" class="demo">
+                <a data-cursor role="button" target="_blank" href="solutions/${project.link}/index.html" class="demo">
                     <p>Demo</p>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"/>
