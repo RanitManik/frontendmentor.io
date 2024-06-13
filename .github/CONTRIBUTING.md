@@ -17,7 +17,7 @@ Thank you for considering contributing to this project! Your help is greatly app
 3. **Create a Branch**:
    - Move into the cloned directory:
      ```sh
-     cd ranitmanik
+     cd FrontendMentor-Solutions
      ```
    - Create a new branch for your changes:
      ```sh
