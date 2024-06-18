@@ -13,3 +13,12 @@ window.addEventListener("mousemove", (e) => {
         top: `${posY}px`
     }, {duration: 400, fill: "forwards"});
 });
+
+document.addEventListener("mouseleave", () => {
+    cursorDot.style.opacity = "0";
+    cursorOutline.style.opacity = "0";
+})
+document.addEventListener("mouseenter", () => {
+    cursorDot.style.opacity = "1";
+    cursorOutline.style.opacity = "1";
+})
