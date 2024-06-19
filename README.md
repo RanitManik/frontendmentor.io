@@ -1,10 +1,9 @@
 <div align="center">
-    <h1>Frontend Mentor Solutions</h1>
     <table>
         <thead>
             <tr>
                 <th>#</th>
-                <th>Challenges</th>
+                <th>Solutions Code</th>
                 <th>Live Demo</th>
             </tr>
         </thead>
