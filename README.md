@@ -3,7 +3,7 @@
         <thead>
             <tr>
                 <th>#</th>
-                <th>Solutions Code</th>
+                <th>Solutions / Code</th>
                 <th>Live Demo</th>
             </tr>
         </thead>
