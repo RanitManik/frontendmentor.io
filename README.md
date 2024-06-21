@@ -268,8 +268,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-I would like to express my gratitude to:
+I want to extend my gratitude to Frontend Mentor for offering engaging challenges that have helped me improve my skills and work on real-world projects. I also appreciate the supportive and inspiring community members at Frontend Mentor for their invaluable feedback and discussions throughout my learning journey.
 
-- Frontend Mentor for providing these engaging challenges that help me enhance my skills and build real-world projects.
-- The supportive and inspiring community members at Frontend Mentor. Your feedback and discussions have been invaluable
-  in my learning journey.
+---
+
+  <p align="center">Thank you for exploring the <strong>frontendmentor.io</strong>! Happy coding! 🚀</p>
