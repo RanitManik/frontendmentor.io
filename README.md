@@ -189,13 +189,13 @@
 
 <hr>
 
-## Frontend Mentor Solutions by [Ranit Manik](https://www.frontendmentor.io/profile/RanitManik)
+## frontendmentor.io Solutions by [Ranit Manik](https://www.frontendmentor.io/profile/RanitManik)
 
-Welcome to my Frontend Mentor Solutions page! I am Ranit Manik, a passionate developer specializing in HTML, CSS, JavaScript, React, and TypeScript with a growing proficiency in Backend Development. My journey in web development is driven by a commitment to continuous learning and an enthusiasm for creating clean, functional, and aesthetically pleasing user interfaces.
+Welcome to my frontendmentor.io Solutions page! I am Ranit Manik, a passionate developer specializing in HTML, CSS, JavaScript, React, and TypeScript with a growing proficiency in Backend Development. My journey in web development is driven by a commitment to continuous learning and an enthusiasm for creating clean, functional, and aesthetically pleasing user interfaces.
 
-On this page, you'll find a showcase of my solutions to various Frontend Mentor challenges. Each project represents a step in my development journey, highlighting my skills in problem-solving, design implementation, and responsive development. I believe in writing code that is not only effective but also maintainable and scalable.
+On this page, you'll find a showcase of my solutions to various frontendmentor.io challenges. Each project represents a step in my development journey, highlighting my skills in problem-solving, design implementation, and responsive development. I believe in writing code that is not only effective but also maintainable and scalable.
 
-> **Here is my [FrontendMentor Profile Page](https://www.frontendmentor.io/profile/RanitManik)**
+> **Here is my [frontendmentor.io Profile Page](https://www.frontendmentor.io/profile/RanitManik)**
 
 ## How to Use
 
@@ -268,7 +268,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-I want to extend my gratitude to Frontend Mentor for offering engaging challenges that have helped me improve my skills and work on real-world projects. I also appreciate the supportive and inspiring community members at Frontend Mentor for their invaluable feedback and discussions throughout my learning journey.
+I want to extend my gratitude to frontendmentor.io for offering engaging challenges that have helped me improve my skills and work on real-world projects. I also appreciate the supportive and inspiring community members at frontendmentor.io for their invaluable feedback and discussions throughout my learning journey.
 
 ---
 
