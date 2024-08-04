@@ -1,17 +1,19 @@
 <div align="center">
 
+<img width="70px" src="https://github.com/user-attachments/assets/deefbc72-589d-4b21-b4f3-cdd7e0a8aaf9" alt="frontdendmentor logo" />
+
 # [frontendmentor.io Solutions](https://www.frontendmentor.io/profile/RanitManik)
 
-    
-  ![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/frontendmentor.io)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/frontendmentor.io)
-  ![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/frontendmentor.io)
-  ![GitHub License](https://img.shields.io/github/license/RanitManik/frontendmentor.io)
-  ![GitHub forks](https://img.shields.io/github/forks/RanitManik/frontendmentor.io?style=default)
-  ![GitHub stars](https://img.shields.io/github/stars/RanitManik/frontendmentor.io?style=default)
-  <br/>
-  ![Netlify Status](https://api.netlify.com/api/v1/badges/fc286b0b-3fb3-4764-9639-4419b5626595/deploy-status)
-  ![wakatime](https://wakatime.com/badge/github/RanitManik/frontendmentor.io.svg)
+
+![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/frontendmentor.io)
+![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/frontendmentor.io)
+![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/frontendmentor.io)
+![GitHub License](https://img.shields.io/github/license/RanitManik/frontendmentor.io)
+![GitHub forks](https://img.shields.io/github/forks/RanitManik/frontendmentor.io?style=default)
+![GitHub stars](https://img.shields.io/github/stars/RanitManik/frontendmentor.io?style=default)
+<br/>
+![Netlify Status](https://api.netlify.com/api/v1/badges/fc286b0b-3fb3-4764-9639-4419b5626595/deploy-status)
+![wakatime](https://wakatime.com/badge/github/RanitManik/frontendmentor.io.svg)
 
 </div>
 
