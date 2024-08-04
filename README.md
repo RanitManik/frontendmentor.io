@@ -1,4 +1,25 @@
-<div align="center">
+# [frontendmentor.io Solutions by Ranit Manik](https://www.frontendmentor.io/profile/RanitManik)
+
+<div>
+    
+  ![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/frontendmentor.io)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/frontendmentor.io)
+  ![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/frontendmentor.io)
+  ![GitHub License](https://img.shields.io/github/license/RanitManik/frontendmentor.io)
+  ![Netlify Status](https://api.netlify.com/api/v1/badges/d0ce3dc4-4e21-43c4-9054-b4ec5b705890/deploy-status)
+  ![wakatime](https://wakatime.com/badge/github/RanitManik/frontendmentor.io.svg)
+
+</div>
+
+Welcome to my frontendmentor.io Solutions page! I am Ranit Manik, a passionate developer specializing in HTML, CSS, JavaScript, React, and TypeScript with a growing proficiency in Backend Development. My journey in web development is driven by a commitment to continuous learning and an enthusiasm for creating clean, functional, and aesthetically pleasing user interfaces.
+
+On this page, you'll find a showcase of my solutions to various frontendmentor.io challenges. Each project represents a step in my development journey, highlighting my skills in problem-solving, design implementation, and responsive development. I believe in writing code that is not only effective but also maintainable and scalable.
+
+> **Here is my [frontendmentor.io Profile Page](https://www.frontendmentor.io/profile/RanitManik)**
+
+<hr>
+
+<div>
     <table>
         <thead>
             <tr>
@@ -186,16 +207,6 @@
         </tbody>
     </table>
 </div>
-
-<hr>
-
-## frontendmentor.io Solutions by [Ranit Manik](https://www.frontendmentor.io/profile/RanitManik)
-
-Welcome to my frontendmentor.io Solutions page! I am Ranit Manik, a passionate developer specializing in HTML, CSS, JavaScript, React, and TypeScript with a growing proficiency in Backend Development. My journey in web development is driven by a commitment to continuous learning and an enthusiasm for creating clean, functional, and aesthetically pleasing user interfaces.
-
-On this page, you'll find a showcase of my solutions to various frontendmentor.io challenges. Each project represents a step in my development journey, highlighting my skills in problem-solving, design implementation, and responsive development. I believe in writing code that is not only effective but also maintainable and scalable.
-
-> **Here is my [frontendmentor.io Profile Page](https://www.frontendmentor.io/profile/RanitManik)**
 
 ## How to Use
 
