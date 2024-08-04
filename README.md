@@ -1,12 +1,16 @@
-# [frontendmentor.io Solutions by Ranit Manik](https://www.frontendmentor.io/profile/RanitManik)
+<div align="center">
 
-<div>
+# [frontendmentor.io Solutions](https://www.frontendmentor.io/profile/RanitManik)
+
     
   ![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/frontendmentor.io)
   ![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/frontendmentor.io)
   ![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/frontendmentor.io)
   ![GitHub License](https://img.shields.io/github/license/RanitManik/frontendmentor.io)
-  ![Netlify Status](https://api.netlify.com/api/v1/badges/d0ce3dc4-4e21-43c4-9054-b4ec5b705890/deploy-status)
+  ![GitHub forks](https://img.shields.io/github/forks/RanitManik/frontendmentor.io?style=default)
+  ![GitHub stars](https://img.shields.io/github/stars/RanitManik/frontendmentor.io?style=default)
+  <br/>
+  ![Netlify Status](https://api.netlify.com/api/v1/badges/fc286b0b-3fb3-4764-9639-4419b5626595/deploy-status)
   ![wakatime](https://wakatime.com/badge/github/RanitManik/frontendmentor.io.svg)
 
 </div>
